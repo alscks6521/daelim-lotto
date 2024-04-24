@@ -96,6 +96,7 @@ class LottoController {
             results = listOf(result)
         )
         return ResponseEntity.ok().body(responseDto)
+
     }
 
     // 현재까지의 당첨 결과 반환 ------------------------------------------------------
