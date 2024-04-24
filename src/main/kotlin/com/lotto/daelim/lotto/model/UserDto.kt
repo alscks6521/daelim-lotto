@@ -1,10 +1,11 @@
 package com.lotto.daelim.lotto.model
 
-data class LoginRequest(
+data class UserRequestDto(
     val email: String,
     val password: String
 )
-data class CreateUserRequest(
+
+data class UserDto(
     val fullName: String,
     val email: String,
     val password: String
